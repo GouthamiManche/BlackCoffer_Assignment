@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 const Json = require('./json');
 app.use('/api/json', Json);
 
-const PORT = 4000; 
+const PORT = 5000; 
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

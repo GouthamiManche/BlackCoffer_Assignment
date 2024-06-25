@@ -32,7 +32,7 @@ function Dashboard() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:4000/api/json');
+      const response = await fetch('http://localhost:5000/api/json');
       const jsonData = await response.json();
       setData(jsonData);
     } catch (error) {
