@@ -10,7 +10,7 @@ const PieChart = ({ data }) => {
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
 
-    const width = 800;
+    const width = 600;
     const height = 400;
     const radius = Math.min(width, height) / 2;
 
