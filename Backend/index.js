@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
     res.json('Hello, Backend Readyyyy!!! ');
-  });
+});
 
 const Json = require('./json');
 app.use('/api/json', Json);
